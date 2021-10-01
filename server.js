@@ -5,7 +5,7 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 const cors = require('cors')
-const port = 3000 || process.env.PORT
+const port = process.env.PORT || 3000
 app.use(
     cors({
         origin:'http://127.0.0.1:5500',
