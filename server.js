@@ -8,7 +8,7 @@ const cors = require('cors')
 const port = process.env.PORT || 3000
 app.use(
     cors({
-        origin:'https://protected-brushlands-34522.herokuapp.com',
+        origin:'https://rydz99.github.io',
         credentials: true    
     })
 )
