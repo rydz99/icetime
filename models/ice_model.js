@@ -25,8 +25,7 @@ const iceSchema = new mongoose.Schema({
     },
     isVegan: {
         type: Boolean,
-        require:true
-,
+        require: true
     }, 
     image: {
         type: String,
