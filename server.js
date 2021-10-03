@@ -14,7 +14,7 @@ app.use(
 )
 
 //connection with mongodb
-mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true })
+mongoose.connect(process.env.DATABASE_NEWURL, { useNewUrlParser: true })
 const db = mongoose.connection
 db.on('error', (error) => console.error(error))
 db.once('open', (error) => console.log('connected to database'))
