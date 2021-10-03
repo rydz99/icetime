@@ -6,6 +6,7 @@ const app = express()
 const mongoose = require('mongoose')
 const cors = require('cors')
 const port = process.env.PORT || 3000
+console.log(DATABASE_NEWURL)
 app.use(
     cors({
         origin:'https://rydz99.github.io',
